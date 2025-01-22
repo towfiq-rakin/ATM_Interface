@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.atm.CheckBalance">
+   <children>
+      <Text layoutX="174.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Balance :">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="balance" layoutX="291.0" layoutY="165.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button layoutX="253.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleBack" text="Return">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

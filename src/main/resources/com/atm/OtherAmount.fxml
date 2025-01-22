@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.atm.OtherAmount">
+   <children>
+      <Text layoutX="204.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Amount (Multiple of 500)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="otherAmountField" layoutX="226.0" layoutY="188.0" />
+      <Button layoutX="225.0" layoutY="237.0" mnemonicParsing="false" onAction="#submit" prefHeight="27.0" prefWidth="65.0" text="Confirm" />
+       <Button layoutX="309.0" layoutY="237.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="27.0" prefWidth="65.0" text="Cancel" />
+   </children>
+</AnchorPane>

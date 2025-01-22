@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="385.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.atm.Deposit">
+   <children>
+      <Text layoutX="221.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Amount To Deposit">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="depositField" layoutX="224.0" layoutY="186.0" onAction="#submit" promptText="Multiple of 500">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></TextField>
+      <Button layoutX="232.0" layoutY="224.0" mnemonicParsing="false" onAction="#submit" text="Deposit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="311.0" layoutY="224.0" mnemonicParsing="false" onAction="#handleBack" text="Cancel">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

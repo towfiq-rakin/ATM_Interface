@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="10" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.atm.Visa">
+   <children>
+      <Text text="Please Enter Your Card Number">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Text>
+      <TextField fx:id="accountField" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="159.0" promptText="VISA, MasterCard">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></TextField>
+      <Button alignment="CENTER" contentDisplay="CENTER" onAction="#handleLogin" text="Enter">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</VBox>
