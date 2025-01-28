@@ -15,7 +15,7 @@ public class Statement  {
 
     public  void  initialize()  {
         String[] data = Main.readData();
-        System.out.println(data[0] + " " + data[1] + " " + data[2] + " " + data[3] + " " + data[4]);
+        //System.out.println(data[0] + " " + data[1] + " " + data[2] + " " + data[3] + " " + data[4]);
         setLabels(data);
     }
 
